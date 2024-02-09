@@ -13,3 +13,10 @@ def add_numbers(num1, num2):
 result = add_numbers(4, 6)
 print(result)
 
+#3. Create a function called calculate_area that calculates the area of a rectangle. It should take two parameters: length and width, and return the area.
+
+def calculate_area(length, width):
+    return length * width
+area_of_rectangle = calculate_area(4, 7)
+print(area_of_rectangle)
+
