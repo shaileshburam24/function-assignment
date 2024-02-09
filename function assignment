@@ -5,3 +5,11 @@ def cube(number):
 input  = int (input("enter number"))
 result = cube(input)
 print("cube of {input} is: {result}")
+
+#2. Write a Python function called add_numbers that takes two parameters, num1 and num2, and returns the sum of the two numbers.
+def add_numbers(num1, num2):
+    return num1 + num2
+
+result = add_numbers(4, 6)
+print(result)
+
