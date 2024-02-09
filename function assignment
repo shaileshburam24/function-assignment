@@ -1,4 +1,4 @@
-Write a function that accepts a number and return cube of it.
+#1. Write a function that accepts a number and return cube of it.
 
 def cube(number):
     return number **3
