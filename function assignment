@@ -20,3 +20,77 @@ def calculate_area(length, width):
 area_of_rectangle = calculate_area(4, 7)
 print(area_of_rectangle)
 
+#4. Define a function called check_even that takes an integer as input and returns True if the number is even, otherwise returns False.
+
+def check_even():
+    return True, False
+    value = input("Enter any number")
+    int_value = int(value)
+    if int_value % 2 == 0:
+        return True
+    return False
+
+#5. Write a function called reverse_string that takes a string as input and returns the reverse of that string.
+
+    def reverse_string(strpar):
+        return strpar[::-1]
+    result = reverse_string("SHAILESHBURAM")
+    print(result) 
+
+#6. Create a function called find_max that takes a list of numbers as input and returns the maximum number in the list.
+
+def find_max(list1):
+    return max(list1)
+    maxVal = 0
+    for i in range(len(list1)):
+        if maxVal < list1[i]:
+            maxVal = list1[i]
+    return maxVal
+result = find_max([1,2,3,4,75,6,17,8])
+print(result)
+
+
+#7. Define a function called calculate_factorial that takes an integer as input and returns the factorial of that number.
+
+def calculate_factorial(integer):
+    fact = 1
+    for i in range(1, integer+1):
+        print(i)
+        fact = fact * i
+    return fact
+result = calculate_factorial(5)
+print(result)
+
+#8. Write a function called is_prime that takes an integer as input and returns True if the number is prime, otherwise returns False.
+
+def is_prime(num):
+    if(num != 2 and num != 3 and num != 5) and (num % 2 == 0 or num % 3 == 0 or num % 5 == 0):
+        return False
+    else:
+        return True
+    
+result = is_prime(7)
+print(result)
+
+#10. Define a function called calculate_average that takes a list of numbers as input and returns the average of those numbers.
+
+def calculate_average(nums):
+
+    sum = 0
+    for i in nums:
+        sum = sum + i           
+    avg = sum / len(nums)
+    return avg              
+
+result = calculate_average([10, 20, 1, 3, 21, 32, 24, 13, 54])
+print(result)
+
+
+
+
+
+
+
+
+
+
